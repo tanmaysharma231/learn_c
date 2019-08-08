@@ -1,0 +1,30 @@
+#include <stdio.h>
+void getinput();
+void sum();
+void display();
+int a,b,c;
+int main()
+{
+   getinput();
+   sum();
+   display();
+    
+
+    return 0;
+}
+void getinput(){
+    
+    printf("enter first variable\n");
+    scanf("%d",&a);
+    printf("\n enter second variable\n");
+    scanf("%d",&b);
+    
+}
+void sum(){
+    c=a+b;
+    
+}
+void display(){
+    printf("sum is %d",c);
+    
+}
