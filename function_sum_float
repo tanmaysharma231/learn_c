@@ -1,0 +1,17 @@
+#include <stdio.h>
+void sum(float a,float b);
+int main(void) {
+  float a,b;
+  printf("Hello \n please enter number 1 \n ");
+  scanf("%f",&a);
+   printf("\n please enter number 2 \n ");
+  scanf("%f",&b);
+  sum(a,b);
+  return 0;
+}
+void sum(float a, float b){
+ float s;
+  s=a+b;
+  printf("\n the sum is : %f",s);
+
+}
