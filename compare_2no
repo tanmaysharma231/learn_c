@@ -1,0 +1,17 @@
+#include <stdio.h>
+void comp(int a, int b);
+int main(void) {
+ int a,b;
+ printf("enter 1st number\n");
+ scanf("%d",&a);
+ printf("\n enter 2nd number");
+ scanf("%d",&b);
+ comp(a,b);
+  return 0;
+}
+void comp(int a, int b){
+if (a>b)
+ printf("%d is larger",a);
+else 
+printf("%d is larger ",b);
+}
