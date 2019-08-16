@@ -1,0 +1,16 @@
+#include <stdio.h>
+int no();
+int main(void) {
+  int n,i,a=0;
+  n=no();
+  for(i=n;i>0;i--)
+  a=a+i;
+ printf("sum of %d natural numbers is %d",n,a);
+  return 0;
+}
+int no()
+{ int n;
+  printf("Hello \nplease enter number of numbers to add\n");
+  scanf("%d",&n);
+ return n;
+}
