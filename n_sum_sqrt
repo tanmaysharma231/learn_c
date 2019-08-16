@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<math.h>
+int main(void) {
+  int n,i;
+  float a=0,s[n];
+  printf("Hello \nplease enter number of numbers to add\n");
+  scanf("%d",&n);
+ for(i=n;i>0;i--)  
+   {
+    
+     a=a+sqrt(i);
+   }
+ printf("sum of %d natural numbers is %f",n,a);
+  return 0;
+}
