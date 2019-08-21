@@ -1,0 +1,26 @@
+#include <stdio.h>
+struct fraction{
+int p ,q ;
+ 
+};
+struct  fraction inpfra();
+int main(void) {
+  printf("Hello World\n");
+
+inpfra();
+  return 0;
+}
+struct  fraction inpfra(){
+   int n;
+ 
+ printf("enter no. of fractions \n");
+struct fraction s[n];
+scanf("%d",&n);
+for(int i=0;i<n;i++)
+{
+printf("%d:\n enter numerator",i+1);
+scanf("%d",&s[i].p);
+printf("\n enter denominator");
+scanf("%d",&s[i].q);
+}
+ }
